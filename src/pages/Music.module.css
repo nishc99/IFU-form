@@ -1,0 +1,107 @@
+.frameChild {
+  height: 56.875rem;
+  width: 79.375rem;
+  position: relative;
+  border-radius: var(--br-3xs);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  width: 100%;
+  height: 54.75rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.relaxFor10 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.relaxFor10MinsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+}
+.div,
+.frameParent,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.531rem var(--padding-12xs) 0;
+  position: relative;
+  gap: 34.219rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.div,
+.vectorParent {
+  flex-direction: row;
+}
+.vectorParent {
+  width: 79.375rem;
+  border-radius: var(--br-3xs);
+  background-color: #6b6671;
+  justify-content: flex-start;
+  padding: 0.813rem var(--padding-mid) 1.125rem 1.563rem;
+  max-width: 100%;
+  text-align: justify;
+  font-size: 1.063rem;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.div {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: 7.125rem 14.625rem 3.5rem;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .frameParent {
+    gap: 17.125rem 34.219rem;
+  }
+  .div {
+    padding-left: var(--padding-98xl);
+    padding-right: var(--padding-98xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 8.563rem 34.219rem;
+  }
+  .div {
+    padding-left: var(--padding-39xl);
+    padding-right: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: 4.25rem 34.219rem;
+  }
+  .div {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

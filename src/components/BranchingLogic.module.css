@@ -1,0 +1,125 @@
+.selectName {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.frameChild {
+  height: 2.688rem;
+  width: 19.019rem;
+  border-radius: 7.83px;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: none;
+}
+.est,
+.frameChild,
+.frameItem {
+  position: relative;
+}
+.est {
+  display: inline-block;
+  min-width: 1.375rem;
+}
+.frameItem {
+  width: 0.475rem;
+  height: 0.306rem;
+  object-fit: contain;
+}
+.loopControllerInner {
+  height: 0.588rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0.281rem;
+  box-sizing: border-box;
+}
+.loopController {
+  border-radius: 3.91px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0.144rem 0.381rem;
+  gap: 0.244rem;
+  z-index: 2;
+}
+.text {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  min-width: 7.438rem;
+  z-index: 1;
+}
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.844rem 0 0;
+  font-size: var(--font-size-base-7);
+  color: var(--dark-tone-100);
+}
+.calendarMonthIcon {
+  width: 1.225rem;
+  height: 1.225rem;
+  position: relative;
+  z-index: 2;
+}
+.calendarMonthWrapper {
+  height: 1.344rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.119rem 0 0;
+  box-sizing: border-box;
+}
+.branchingLogic,
+.calendarMonthWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 7.83px;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-lightgray);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.613rem var(--padding-base) 0.575rem var(--padding-11xs);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs-7);
+  color: var(--color-gray-100);
+}
+.branchingLogic {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.525rem;
+  min-width: 14.25rem;
+  text-align: left;
+  font-size: var(--font-size-base-7);
+  color: var(--dark-tone-100);
+  font-family: var(--font-montserrat);
+}
+
+.text2 {
+  width: 17.813rem;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-base-7);
+  background-color: transparent;
+  height: 1.5rem;
+  position: relative;
+  line-height: 1.469rem;
+  color: var(--dark-tone-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 3;
+}

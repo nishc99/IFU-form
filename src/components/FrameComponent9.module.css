@@ -1,0 +1,84 @@
+.span {
+  color: var(--color-crimson-100);
+}
+.selectName {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.frameChild {
+  height: 2.688rem;
+  width: 19.019rem;
+  position: relative;
+  border-radius: 7.83px;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: none;
+}
+.chevronDownIcon,
+.text {
+  position: relative;
+  z-index: 1;
+}
+.text {
+  line-height: 1.5rem;
+}
+.chevronDownIcon {
+  width: 1.225rem;
+  height: 1.225rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevronDownWrapper {
+  height: 1.344rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.119rem 0 0;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 7.83px;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-lightgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.613rem var(--padding-base) 0.575rem 0.856rem;
+  gap: var(--gap-xl);
+}
+.selectNameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.525rem;
+  min-width: 14.25rem;
+  text-align: left;
+  font-size: var(--font-size-base-7);
+  color: var(--dark-tone-100);
+  font-family: var(--font-montserrat);
+}
+
+.text2 {
+  width: 17.813rem;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-base-7);
+  background-color: transparent;
+  height: 1.5rem;
+  position: relative;
+  line-height: 1.469rem;
+  color: var(--dark-tone-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 3;
+}

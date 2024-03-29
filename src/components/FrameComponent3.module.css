@@ -1,0 +1,125 @@
+.home,
+.newInformationFor {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.newInformationFor {
+  height: 3.5rem;
+  width: 31.463rem;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.home {
+  width: 4.881rem;
+}
+.generalInformationIcon {
+  width: 0.581rem;
+  height: 0.775rem;
+  position: relative;
+  object-fit: contain;
+}
+.generalInformationWrapper {
+  height: 1.106rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.331rem var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.newDocument {
+  align-self: stretch;
+  height: 0.875rem;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.newDocumentWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+  color: var(--color-crimson-200);
+}
+.chevronDownIcon,
+.homeParent,
+.newDocumentWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.homeParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1.019rem;
+}
+.chevronDownIcon {
+  width: 24.325rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-lgi);
+  color: var(--color-gray-200);
+}
+.documentTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-montserrat);
+}
+.frameChild {
+  height: 0.25rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.documentTitleParent,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorWrapper {
+  width: 108.5rem;
+  height: 0.25rem;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.documentTitleParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  flex-shrink: 0;
+  debug_commit: 2554057;
+}
+@media screen and (max-width: 1825px) {
+  .newInformationFor {
+    display: contents;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .homeParent {
+    display: none;
+  }
+  .chevronDownIcon {
+    width: 0;
+  }
+}

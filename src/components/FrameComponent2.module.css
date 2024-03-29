@@ -1,0 +1,91 @@
+.span {
+  color: var(--color-crimson-100);
+}
+.selectName {
+  flex: 1;
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.selectNameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.frameChild {
+  height: 2.688rem;
+  width: 19.019rem;
+  position: relative;
+  border-radius: 7.83px;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: none;
+}
+.queueMapEntry {
+  position: relative;
+  line-height: 1.5rem;
+  z-index: 1;
+}
+.chevronDownIcon {
+  width: 1.225rem;
+  height: 1.225rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.chevronDownWrapper {
+  height: 1.35rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.chevronDownWrapper,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 7.83px;
+  background-color: var(--color-ghostwhite);
+  border: 1px solid var(--color-lightgray);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.612rem var(--padding-base) 0.575rem 0.856rem;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.519rem;
+  min-width: 14.313rem;
+  text-align: left;
+  font-size: var(--font-size-base-7);
+  color: var(--dark-tone-100);
+  font-family: var(--font-montserrat);
+}
+
+.text2 {
+  width: 17.813rem;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-base-7);
+  background-color: transparent;
+  height: 1.5rem;
+  position: relative;
+  line-height: 1.469rem;
+  color: var(--dark-tone-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 3;
+}
